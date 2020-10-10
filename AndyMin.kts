@@ -4,7 +4,7 @@ Print out your name onto the console.
 e.g. your program should print "Andy Min".
  */
 fun level1() {
-    printl("Andy Min")
+    println("Andy Min")
 }
 
 /*
@@ -15,6 +15,8 @@ You should set your name as a variable, and then print out how many letters
 that variable has.
  */
 fun level2() {
+    val myName = "Andy Min"
+    println(myName.length)
     // Your code here
 }
 
@@ -25,6 +27,13 @@ letters.
 e.g. Entering "tHis iS a rANdoM meSSagE" should print out "HSANMSSE"
  */
 fun level3() {
+    val input = readLine()!!
+
+    for (character in input) {
+        if (character.isUpperCase()) {
+            print(character)
+        }
+    }
     // Your code here
 }
 
