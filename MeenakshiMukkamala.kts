@@ -27,7 +27,7 @@ e.g. Entering "tHis iS a rANdoM meSSagE" should print out "HSANMSSE"
 fun level3() {
     // Your code here
 }
-`git add MeenakshiMukkamala.kts``git commit -m "type a commit message here, doesn't really matter"`
+
 
 
 level1()
